@@ -130,3 +130,7 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+;; Maximize screen on startup
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
